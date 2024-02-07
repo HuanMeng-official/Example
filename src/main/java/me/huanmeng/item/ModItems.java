@@ -9,9 +9,11 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
 
-    public static final Item EXAMPL_ITEM = Registry.register(Registries.ITEM,
-            new Identifier(Example.MODID, "example_item"),
-            new Item(new FabricItemSettings()));
+    public static final Item EXAMPLE_ITEM = registerItem("example_item", new Item(new FabricItemSettings()));
+
+    public static Item registerItem(String name, Item item) {
+        return Registry.register(Registries.ITEM, new Identifier(Example.MODID, name), item);
+    }
 
     public static void registryItem() {
     }
