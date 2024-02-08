@@ -1,3 +1,4 @@
 {
-  "item.example.example_item": "示例物品"
+  "item.example.example_item": "示例物品",
+  "itemgroup.example.group": "物品栏"
 }
