@@ -3,5 +3,6 @@
   "modmenu.descriptionTranslation.example": "Example Mod....",
 
   "item.example.example_item": "Example Item",
-  "itemgroup.example.group": "Item Group"
+  "itemgroup.example.group": "Item Group",
+  "item.example.example_food": "Example Food"
 }

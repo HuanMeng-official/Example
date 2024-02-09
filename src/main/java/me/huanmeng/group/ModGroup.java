@@ -19,6 +19,7 @@ public class ModGroup {
                     .icon(() -> new ItemStack(ModItems.EXAMPLE_ITEM))
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.EXAMPLE_ITEM);
+                        entries.add(ModItems.EXAMPLE_FOOD);
                     })
                     .build());
 

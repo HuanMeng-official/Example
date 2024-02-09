@@ -10,6 +10,7 @@ import net.minecraft.util.Identifier;
 public class ModItems {
 
     public static final Item EXAMPLE_ITEM = registerItem("example_item", new Item(new FabricItemSettings()));
+    public static final Item EXAMPLE_FOOD = registerItem("example_food", new Item(new FabricItemSettings().food(ModFoods.EXAMPLE_FOOD)));
 
     public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(Example.MODID, name), item);
