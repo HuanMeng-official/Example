@@ -1,5 +1,6 @@
 package me.huanmeng;
 
+import me.huanmeng.block.ModBlocks;
 import me.huanmeng.group.ModGroup;
 import me.huanmeng.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -17,5 +18,6 @@ public class Example implements ModInitializer {
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registryItem();
 		ModGroup.registryGroup();
+		ModBlocks.registryBlock();
 	}
 }

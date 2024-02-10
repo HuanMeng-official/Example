@@ -1,6 +1,7 @@
 package me.huanmeng.group;
 
 import me.huanmeng.Example;
+import me.huanmeng.block.ModBlocks;
 import me.huanmeng.item.ModItems;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -20,6 +21,7 @@ public class ModGroup {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.EXAMPLE_ITEM);
                         entries.add(ModItems.EXAMPLE_FOOD);
+                        entries.add(ModBlocks.EXAMPLE_BLOCK);
                     })
                     .build());
 

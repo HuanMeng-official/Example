@@ -4,5 +4,6 @@
 
   "item.example.example_item": "示例物品",
   "itemgroup.example.group": "物品栏",
-  "item.example.example_food": "示例食物"
+  "item.example.example_food": "示例食物",
+  "block.example.example_block": "示例方块"
 }
