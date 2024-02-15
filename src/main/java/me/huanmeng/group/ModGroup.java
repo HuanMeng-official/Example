@@ -22,6 +22,7 @@ public class ModGroup {
                         entries.add(ModItems.EXAMPLE_ITEM);
                         entries.add(ModItems.EXAMPLE_FOOD);
                         entries.add(ModBlocks.EXAMPLE_BLOCK);
+                        entries.add(ModItems.EXAMPLE_AXE);
                     })
                     .build());
 

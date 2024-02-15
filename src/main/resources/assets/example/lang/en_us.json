@@ -5,5 +5,6 @@
   "item.example.example_item": "Example Item",
   "itemgroup.example.group": "Item Group",
   "item.example.example_food": "Example Food",
-  "block.example.example_block": "Example Block"
+  "block.example.example_block": "Example Block",
+  "item.example.example_axe": "Example AXE"
 }
